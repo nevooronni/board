@@ -4,9 +4,11 @@ We hope you find exactly what answers you are looking for.<br>
 
 <ul>
   {{#each model as |question|}}
-     {{question-tile question=question}}
+     {{question-tile question=question destroyQuestion="destroyQuestion"}}
   {{/each}}
 </ul>
+
+{{new-question saveQuestion2="saveQuestion3"}}
 
 {{#link-to 'about'}}About us{{/link-to}}
 {{#link-to 'contact'}}Contact us.{{/link-to}}
