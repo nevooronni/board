@@ -1,12 +1,9 @@
 <li>
-  {{question.name}} {{question.content}}
+  {{#link-to 'question' question.id}}{{question.name}} {{question.content}}
+  {{/link-to}}
   {{#if isImageShowing }}
     <p><img src={{question.image}} alt={{question.content}} {{action 'imageHide'}}></p>
   {{else}}
-    <button {{action 'imageShow'}}>Show Image</button>
+    <button {{action 'imageShow'}}>Image</button>
   {{/if}}
-
-  {{edit-question question=question edit="edit"}}
-
-  <button {{action 'delete' question}}>Delete Question</button>
 </li>

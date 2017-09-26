@@ -3,12 +3,22 @@
 We hope you find exactly what answers you are looking for.<br>
 
 <ul>
-  {{#each model as |question|}}
-     {{question-tile question=question edit="edit" destroyQuestion="destroyQuestion"}}
+  {{#each model.questions as |question|}}
+     {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<h2> All Answers </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.name}} <br> {{answer.content}}</li>
+  {{/each}}
+</ul>
+
+<hr>
 
 {{#link-to 'about'}}About us{{/link-to}}
 {{#link-to 'contact'}}Contact us.{{/link-to}}
