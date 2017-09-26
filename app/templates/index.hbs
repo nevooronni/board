@@ -4,7 +4,7 @@ We hope you find exactly what answers you are looking for.<br>
 
 <ul>
   {{#each model as |question|}}
-     <li>{{question.name}} {{question.content}}</li>
+     {{question-tile question=question}}
   {{/each}}
 </ul>
 

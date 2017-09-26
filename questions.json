@@ -1,11 +1,14 @@
 { "questions": [{
     "name": "Veruca alvus",
-    "content": "San Francisco"
+    "content": "San Francisco",
+    "image": ""
   }, {
     "name": "eprupioupoi",
-    "content": "wopripoweu"
+    "content": "wopripoweu",
+    "image": ""
   }, {
     "name": "wk;jrewj;",
-    "content": ";lasfdkhaskjf"
+    "content": ";lasfdkhaskjf",
+    "image": ""
   }]
 }
