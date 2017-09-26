@@ -2,5 +2,11 @@
 
 We hope you find exactly what answers you are looking for.<br>
 
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.name}} {{question.content}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About us{{/link-to}}
 {{#link-to 'contact'}}Contact us.{{/link-to}}
