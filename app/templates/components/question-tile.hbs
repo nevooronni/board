@@ -5,5 +5,8 @@
   {{else}}
     <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
+
+  {{edit-question question=question edit="edit"}}
+
   <button {{action 'delete' question}}>Delete Question</button>
 </li>
