@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
       };
       this.set('addNeWQuestion', false);
-      this.sendAction('saveQuestion12', params);
+      this.sendAction('saveQuestion2', params);
     }
   }
 });
