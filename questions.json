@@ -13,9 +13,11 @@
   }],
   "answers": [{
    "name": "Andrea",
-   "content": "repourpwou"
+   "content": "repourpwou",
+   "image": ""
  }, {
    "name": "Chelsea",
-   "content": "alsdk;fa"
+   "content": "alsdk;fa",
+   "image": ""
  }]
 }
