@@ -7,10 +7,13 @@
         {{input value=name id="name"}}
       </div>
       <div class="form-group">
-        <label for="rating">Content</label>
+        <label for="answer">Content</label>
         {{input value=content id="content"}}
       </div>
-
+      <div class="form-group">
+        <label for="image">Upload Image(URL)</label>
+        {{input value=image id="image"}}
+      </div>
       <button {{action 'saveAnswer'}}>Save</button>
     </form>
   </div>

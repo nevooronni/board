@@ -14,11 +14,12 @@ We hope you find exactly what answers you are looking for.<br>
 
 <ul>
   {{#each model.answers as |answer|}}
-    <li>{{answer.name}} <br> {{answer.content}}</li>
+    <li>{{answer.name}} <br> {{answer.content}} <br> {{answer.image}}</li>
   {{/each}}
 </ul>
 
 {{new-answer saveAnswer="saveAnswer"}}
+
 
 <hr>
 
