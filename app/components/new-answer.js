@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         content: this.get('content'),
         image: this.get('image'),
+        question: this.get('question')
       };
       this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);

@@ -3,8 +3,9 @@
 <p><img src={{question.image}} alt={{question.content}}></p>
 
 <h2> Answers </h2>
+
 <ul>
-  {{#each questions.answers as |answer|}}
+  {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
 </ul>
